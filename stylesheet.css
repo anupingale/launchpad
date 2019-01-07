@@ -17,5 +17,6 @@ body {
 
 h1 {
   width: 800px;
+  position: sticky;
   text-align:center;
 }

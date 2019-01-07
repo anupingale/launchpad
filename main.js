@@ -1,11 +1,10 @@
 const playSound = function(cellId) {
 	let music = "/sounds/chain1/" + cellId + ".mp3";
 	document.getElementById(cellId).setAttribute("style", "background : green");
-
 	let audio = new Audio(music);
 	audio.play();
 	audio.onended = function() {
-		document.getElementById(cellId).setAttribute("style", "background : red");
+		document.getElementById(cellId).setAttribute("style", "background : blue");
 	};
 };
 
@@ -69,6 +68,5 @@ const createDiv = function(cellId) {
 const createDivs = function() {
 	let multipleDivs = id.map(createDiv).join("");
 	let div = document.getElementById("track_panes");
-	console.log(div + multipleDivs);
 	div.innerHTML = multipleDivs;
 };
