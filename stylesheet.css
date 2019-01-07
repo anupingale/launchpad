@@ -2,7 +2,7 @@
   height:105px;
   width:105px;
   background-color:blue;
-  border:black solid 2px
+  border:black 0.1px dotted
 }
 
 body {

@@ -8,6 +8,7 @@ const playSound = function(cellId) {
 		document.getElementById(cellId).setAttribute("style", "background : red");
 	};
 };
+
 const id = [
 	"a0",
 	"a1",
