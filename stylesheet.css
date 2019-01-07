@@ -1,17 +1,21 @@
 .allCells {
-  height:150px;
-  width:150px;
+  height:105px;
+  width:105px;
+  background-color:blue;
   border:black solid 2px
 }
 
+body {
+  margin: 0px;
+}
 .main {
   display: flex;
-  width: 1000px;
+  width: 800px;
   flex-wrap: wrap;
   justify-content: center
 }
 
 h1 {
-  width: 1000px;
+  width: 800px;
   text-align:center;
 }
